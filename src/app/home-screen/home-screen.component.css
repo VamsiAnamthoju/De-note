@@ -1,0 +1,84 @@
+        /* .selectstyling{
+            padding-left: 1087px;
+            margin-top: -46px;
+        }
+         .addcategorystyling{
+            float: right;
+        }*/
+      .cardstyle{
+        padding-left: 50px;
+        position:relative;
+      }
+
+    nav ul{
+        float: right;
+        list-style: none;
+    }
+    ul li{
+        display: inline-block;
+        padding-right: 10px;
+    
+    }
+    ul li a:hover{
+        background-color: skyblue;
+        /* padding-top: 155px; */
+        padding-top: 12px;
+        padding-bottom: 18px;
+    
+    }
+
+    li a{
+        cursor: pointer;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .addcategorystyling{
+        float: right;
+    }
+    .btnstyle{
+        /* margin-top: 52px; */
+        margin-right: -354px;
+    }
+    .btnrow{
+        text-align: center;
+    }
+    .h6textstyle{
+        margin-left: 306px;
+    }
+    .category{
+        text-align: center;
+    }
+    
+
+    .column {
+        width: 50%;
+        display: block;
+        margin-bottom:40px;
+        width: 20%;
+        margin-left: 100px;
+      }
+    
+    
+    /* Style the counter cards */
+    .card {
+      text-align: center;
+      background-color: wheat;
+      height:150px;
+      height: 100%;
+    }
+
+    .card{
+        padding: 0px 30px;
+        padding-left: 0;
+        padding-right: 0px;
+    }
+    span{
+        color: white;
+        background-color: wheat;
+    }
+img{
+    height: 100%;
+    width: 100%;
+}

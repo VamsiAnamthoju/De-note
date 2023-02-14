@@ -1,0 +1,32 @@
+
+<div class="container">
+    <div class="headstyle">
+        <h1><span id="destyle">DE</span> NOTE</h1>
+    </div>
+    <div class="body-content"> <!-- [formGroup]="loginForm" -->
+        <form>
+            <div class="row was-validated">
+                <input type="text" placeholder="FullName *" class="form-control" formControlName="user" class="formControl" minlength="5" required>
+            </div>
+
+            <div class="row was-validated mt-2">
+                <input type="mail" placeholder="Email Id *" pattern="" formControlName="mail" class="formControl" required>
+            </div>
+
+            <div class="row was-validated mt-2">
+                <input type="password" placeholder="Password *" pattern="" formControlName="password" class="formControl" minlength="8" required>
+            </div>
+
+            <div class="row was-validated mt-2">
+                <input type="password" placeholder="Re-Password *" pattern="" formControlName="password" class="formControl" minlength="8" required>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-6">
+                    <button class="btn btn-primary btnstyle">Register</button> <!-- (click)="registration()"  -->
+                </div>
+            </div>
+        </form>
+        <br>
+    </div>
+</div>

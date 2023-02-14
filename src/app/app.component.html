@@ -1,0 +1,93 @@
+
+  <!-- <app-login></app-login> -->
+  <!-- <app-registration></app-registration> -->
+  <!-- <app-home-screen></app-home-screen> -->
+
+    <!-- PRIMENG - IN ANGULAR.JSON FILE    // "n ode_modules/primeicons/primeicons.css",
+                  // "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+                  // "node_modules/primeng/resources/primeng.min.css",
+                  -->
+  <!-- <div class="row" style="background-color: aquamarine; padding: 10px 10px;">
+                  <nav>
+                    <ul>
+                      <li><a [routerLink]="'/home'">Home</a></li>
+                      <li><a [routerLink]="'/login'">Login</a></li>
+                      <li><a [routerLink]="'/registration'">Registration</a></li>
+                    </ul>
+                  </nav>
+  </div>
+  <router-outlet></router-outlet> -->
+
+<table class="table table-bordered table-striped primary">
+   <thead >
+  <th>Sl.No</th>
+  <th>Name</th>
+  <th>Company</th>
+  <th>Designation</th>
+</thead>
+<tbody >
+ <tr *ngFor="let x of tabledata"
+ [ngClass]="{'highlight': x.designation == checkedItem}"
+ >
+  <td >{{x.No}}</td>
+  <td >{{x.name}}</td>
+  <td >{{x.company}}</td>
+  <td >{{x.designation}}</td>
+</tr>
+</tbody>
+</table><br>
+<button (click)="doclick('angular')">Angular developers</button> &nbsp;
+<button (click)="doclick('ios')">IOS developers</button> <br><br>
+<button (click)="doclick('python')">Python developers</button> &nbsp; &nbsp;
+<button (click)="doclick('java')">Java developers</button>
+
+
+
+
+
+
+    <div class="row left-nav-menu" style="background-color: aquamarine; padding: 10px 10px;">
+            <nav>
+              <ul>
+                <li><a [routerLink]="'/home'">Home</a></li>
+                <li><a [routerLink]="'/login'">Login</a></li>
+                <li><a [routerLink]="'/registration'">Registration</a></li>
+              </ul>
+            </nav>
+    </div>
+<router-outlet></router-outlet>
+  
+
+<div style="float: right; padding-right: 100px;">
+
+      <div class="row" style="display: flex;">
+        <div class="col-4">
+          <input type="text" placeholder="FirstName">
+        </div>
+        <div class="col-4">
+          <input type="text" placeholder="MiddleName">
+        </div>
+        <div class="col-4">
+          <input type="text" placeholder="LastName">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-4">
+          <input type="email" name="" id="" placeholder="Email ID">
+        </div>
+        <div class="col-4">
+          <input type="number" name="" id="" placeholder="Mobile Number">
+        </div>
+        <div class="col-4">
+          <input type="number" pattern="0-9[2]" name="" id="" placeholder="Age">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+      </div>
+
+</div>

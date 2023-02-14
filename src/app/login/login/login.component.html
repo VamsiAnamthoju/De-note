@@ -1,0 +1,36 @@
+
+<div class="container">
+    <div class="headstyle" style="padding-top: 10px;">
+        <h1><span id="destyle" style="background-color: blue; color: white; padding-top: 0px;">DE</span> NOTE</h1>
+    </div>
+    <div class="body-content" [formGroup]="loginForm" >
+        <form>
+            <div class="row was-validated">
+                <span>UserName</span>
+                <input type="text" placeholder="UserName*" class="form-control" formControlName="user" class="formControl" minlength="5" required>
+                <!-- <div class="valid-feedback">Valid input</div> -->
+                <div class="invalid-feedback">Invalid username*</div>
+            </div>
+            <div class="row was-validated">
+                <span>Password</span> 
+                <input type="password" placeholder="password*" pattern="" formControlName="password" class="formControl" minlength="8" required>
+                <!-- <div class="valid-feedback">Valid password</div> -->
+                <div class="invalid-feedback">Invalid password*</div>
+            </div>
+                 <div class="row mt-2">
+                    <div class="col-6">
+                        <button class="btn btn-primary btnstyle" (click)="loginuser()" > Login</button>
+                    </div>
+                    <div class="col-6">
+                        <a RouterLink="#" class="ancstyle">Sign Up</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">   
+                        <a RouterLink="#" class="ancstyle ancstyle2">Forgot password ?</a>
+                    </div>
+                </div>
+        </form>
+        <br>
+    </div>
+</div>

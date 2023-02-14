@@ -1,0 +1,60 @@
+        .container{
+            background-color: aliceblue;
+            /* margin-top: 150px; */
+            border-radius: 5px;
+            width: 300px;
+            margin:150px 450px 150px;
+        }
+        .headstyle{
+            text-align: center;
+        }
+        form{
+            padding-left: 41px;
+            padding-right: 41px;
+        }
+        .btnstyle{
+            width: 90px; 
+            padding: 1px 1px;
+        }
+        .ancstyle2{
+            padding: 0px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+/* 
+        div.btnstyle{
+            width: 95px;    
+        }
+       
+        #btnstyling{
+            width: 87px;
+            padding: 1px 0px;
+        }
+        #btnstyle{
+            display: flex;
+        }
+
+        #forgotstyling{
+            text-decoration: underline;
+            color: blue;
+        }
+        #signupstyling{
+            text-decoration: underline;
+            color: blue;
+        }
+        
+        a{
+            text-decoration: underline; 
+        }
+        a:hover{
+            cursor: pointer;
+        } */

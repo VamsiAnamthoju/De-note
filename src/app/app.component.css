@@ -1,0 +1,17 @@
+    ul li{
+        list-style: none;
+        display: inline;
+        float: left;
+        padding: 0px 150px;  
+        /* float: inline-start; */
+    }
+    a{
+        text-decoration: none;
+    }
+    nav ul li a:hover{
+        background-color: pink;
+    }
+   
+    .highlight{
+        background-color: aqua;
+    }
